@@ -1,0 +1,235 @@
+[
+    {
+      "Genre": "Classic",
+      "BPM": 60,
+      "Danceability": "20%",
+      "Classical": "100%",
+      "Chill": "90%",
+      "Bass": "10%"
+    },
+    {
+      "Genre": "Jazz",
+      "BPM": 100,
+      "Danceability": "40%",
+      "Classical": "70%",
+      "Chill": "80%",
+      "Bass": "30%"
+    },
+    {
+      "Genre": "Chillhop",
+      "BPM": 85,
+      "Danceability": "60%",
+      "Classical": "20%",
+      "Chill": "100%",
+      "Bass": "40%"
+    },
+    {
+      "Genre": "Lo-fi Hip Hop",
+      "BPM": 72,
+      "Danceability": "55%",
+      "Classical": "10%",
+      "Chill": "100%",
+      "Bass": "30%"
+    },
+    {
+      "Genre": "Ambient",
+      "BPM": 60,
+      "Danceability": "10%",
+      "Classical": "40%",
+      "Chill": "100%",
+      "Bass": "20%"
+    },
+    {
+      "Genre": "Future Bass",
+      "BPM": 145,
+      "Danceability": "75%",
+      "Classical": "10%",
+      "Chill": "40%",
+      "Bass": "80%"
+    },
+    {
+      "Genre": "Future House",
+      "BPM": 128,
+      "Danceability": "80%",
+      "Classical": "15%",
+      "Chill": "10%",
+      "Bass": "60%"
+    },
+    {
+      "Genre": "Dubstep",
+      "BPM": 140,
+      "Danceability": "90%",
+      "Classical": "10%",
+      "Chill": "5%",
+      "Bass": "100%"
+    },
+    {
+      "Genre": "Drum and Bass",
+      "BPM": 172,
+      "Danceability": "85%",
+      "Classical": "5%",
+      "Chill": "10%",
+      "Bass": "90%"
+    },
+    {
+      "Genre": "Techno",
+      "BPM": 130,
+      "Danceability": "70%",
+      "Classical": "5%",
+      "Chill": "20%",
+      "Bass": "80%"
+    },
+    {
+      "Genre": "Trance",
+      "BPM": 138,
+      "Danceability": "80%",
+      "Classical": "10%",
+      "Chill": "30%",
+      "Bass": "70%"
+    },
+    {
+      "Genre": "Deep House",
+      "BPM": 122,
+      "Danceability": "75%",
+      "Classical": "10%",
+      "Chill": "50%",
+      "Bass": "60%"
+    },
+    {
+      "Genre": "K-pop",
+      "BPM": 120,
+      "Danceability": "90%",
+      "Classical": "10%",
+      "Chill": "20%",
+      "Bass": "60%"
+    },
+    {
+      "Genre": "Rock",
+      "BPM": 110,
+      "Danceability": "60%",
+      "Classical": "30%",
+      "Chill": "30%",
+      "Bass": "50%"
+    },
+    {
+      "Genre": "Metal",
+      "BPM": 160,
+      "Danceability": "40%",
+      "Classical": "10%",
+      "Chill": "10%",
+      "Bass": "70%"
+    },
+    {
+      "Genre": "Pop",
+      "BPM": 115,
+      "Danceability": "90%",
+      "Classical": "10%",
+      "Chill": "40%",
+      "Bass": "50%"
+    },
+    {
+      "Genre": "R&B",
+      "BPM": 90,
+      "Danceability": "80%",
+      "Classical": "20%",
+      "Chill": "70%",
+      "Bass": "40%"
+    },
+    {
+      "Genre": "Reggae",
+      "BPM": 80,
+      "Danceability": "85%",
+      "Classical": "10%",
+      "Chill": "80%",
+      "Bass": "30%"
+    },
+    {
+      "Genre": "Synthwave",
+      "BPM": 100,
+      "Danceability": "65%",
+      "Classical": "15%",
+      "Chill": "70%",
+      "Bass": "60%"
+    },
+    {
+      "Genre": "Trap",
+      "BPM": 150,
+      "Danceability": "70%",
+      "Classical": "5%",
+      "Chill": "10%",
+      "Bass": "100%"
+    },
+    {
+      "Genre": "Tech House",
+      "BPM": 125,
+      "Danceability": "85%",
+      "Classical": "5%",
+      "Chill": "30%",
+      "Bass": "70%"
+    },
+    {
+      "Genre": "Harddance",
+      "BPM": 150,
+      "Danceability": "90%",
+      "Classical": "5%",
+      "Chill": "10%",
+      "Bass": "90%"
+    },
+    {
+      "Genre": "Hardstyle",
+      "BPM": 150,
+      "Danceability": "80%",
+      "Classical": "5%",
+      "Chill": "10%",
+      "Bass": "100%"
+    },
+    {
+      "Genre": "Big Room House",
+      "BPM": 128,
+      "Danceability": "80%",
+      "Classical": "5%",
+      "Chill": "20%",
+      "Bass": "80%"
+    },
+    {
+      "Genre": "Tropical House",
+      "BPM": 110,
+      "Danceability": "90%",
+      "Classical": "5%",
+      "Chill": "80%",
+      "Bass": "40%"
+    },
+    {
+      "Genre": "Psytrance",
+      "BPM": 145,
+      "Danceability": "75%",
+      "Classical": "5%",
+      "Chill": "20%",
+      "Bass": "70%"
+    },
+    {
+      "Genre": "Garage",
+      "BPM": 135,
+      "Danceability": "80%",
+      "Classical": "5%",
+      "Chill": "40%",
+      "Bass": "60%"
+    },
+    {
+      "Genre": "Moombahton",
+      "BPM": 108,
+      "Danceability": "85%",
+      "Classical": "5%",
+      "Chill": "50%",
+      "Bass": "70%"
+    },
+    {
+      "Genre": "Glitch Hop",
+      "BPM": 110,
+      "Danceability": "70%",
+      "Classical": "5%",
+      "Chill": "40%",
+      "Bass": "80%"
+    }
+  ]
+  
