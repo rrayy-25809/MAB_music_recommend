@@ -40,14 +40,6 @@
         "Bass": 20
     },
     {
-        "Genre": "Future Bass",
-        "BPM": 145,
-        "Danceability": 75,
-        "Classical": 10,
-        "Chill": 40,
-        "Bass": 80
-    },
-    {
         "Genre": "Future House",
         "BPM": 128,
         "Danceability": 80,
@@ -56,12 +48,36 @@
         "Bass": 60
     },
     {
+        "Genre": "Future Funk",
+        "BPM": 128,
+        "Danceability": 75,
+        "Classical": 30,
+        "Chill": 15,
+        "Bass": 50
+    },
+    {
         "Genre": "Dubstep",
         "BPM": 140,
-        "Danceability": 90,
+        "Danceability": 95,
         "Classical": 10,
         "Chill": 5,
         "Bass": 100
+    },
+    {
+        "Genre": "Melodic Dubstep",
+        "BPM": 150,
+        "Danceability": 90,
+        "Classical": 10,
+        "Chill": 40,
+        "Bass": 90
+    },
+    {
+        "Genre": "Future Bass",
+        "BPM": 150,
+        "Danceability": 80,
+        "Classical": 10,
+        "Chill": 40,
+        "Bass": 80
     },
     {
         "Genre": "Drum and Bass",
@@ -94,6 +110,302 @@
         "Classical": 10,
         "Chill": 50,
         "Bass": 60
+    },
+    {
+        "Genre": "Big Room House",
+        "BPM": 128,
+        "Danceability": 80,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 80
+    },
+    {
+        "Genre": "House",
+        "BPM": 124,
+        "Danceability": 85,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 70
+    },
+    {
+        "Genre": "Electro House",
+        "BPM": 128,
+        "Danceability": 90,
+        "Classical": 5,
+        "Chill": 10,
+        "Bass": 40
+    },
+    {
+        "Genre": "Electro Swing",
+        "BPM": 128,
+        "Danceability": 90,
+        "Classical": 40,
+        "Chill": 10,
+        "Bass": 30
+    },
+    {
+        "Genre": "Hardcore",
+        "BPM": 180,
+        "Danceability": 60,
+        "Classical": 5,
+        "Chill": 5,
+        "Bass": 100
+    },
+    {
+        "Genre": "Hard Trance",
+        "BPM": 150,
+        "Danceability": 70,
+        "Classical": 5,
+        "Chill": 10,
+        "Bass": 90
+    },
+    {
+        "Genre": "Eurodance",
+        "BPM": 140,
+        "Danceability": 85,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 70
+    },
+    {
+        "Genre": "Dance",
+        "BPM": 128,
+        "Danceability": 90,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 60
+    },
+    {
+        "Genre": "Funk",
+        "BPM": 100,
+        "Danceability": 85,
+        "Classical": 10,
+        "Chill": 40,
+        "Bass": 50
+    },
+    {
+        "Genre": "Soul",
+        "BPM": 90,
+        "Danceability": 80,
+        "Classical": 15,
+        "Chill": 60,
+        "Bass": 40
+    },
+    {
+        "Genre": "Disco",
+        "BPM": 120,
+        "Danceability": 90,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 50
+    },
+    {
+        "Genre": "Folk",
+        "BPM": 80,
+        "Danceability": 60,
+        "Classical": 20,
+        "Chill": 70,
+        "Bass": 30
+    },
+    {
+        "Genre": "Indie",
+        "BPM": 110,
+        "Danceability": 70,
+        "Classical": 15,
+        "Chill": 50,
+        "Bass": 40
+    },
+    {
+        "Genre": "Acoustic",
+        "BPM": 70,
+        "Danceability": 50,
+        "Classical": 20,
+        "Chill": 80,
+        "Bass": 20
+    },
+    {
+        "Genre": "Bluegrass",
+        "BPM": 120,
+        "Danceability": 65,
+        "Classical": 15,
+        "Chill": 60,
+        "Bass": 30
+    },
+    {
+        "Genre": "Country",
+        "BPM": 100,
+        "Danceability": 70,
+        "Classical": 10,
+        "Chill": 50,
+        "Bass": 40
+    },
+    {
+        "Genre": "Latin",
+        "BPM": 110,
+        "Danceability": 90,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 50
+    },
+    {
+        "Genre": "Afrobeats",
+        "BPM": 100,
+        "Danceability": 85,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 60
+    },
+    {
+        "Genre": "Reggaeton",
+        "BPM": 90,
+        "Danceability": 80,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 70
+    },
+    {
+        "Genre": "Salsa",
+        "BPM": 120,
+        "Danceability": 95,
+        "Classical": 5,
+        "Chill": 40,
+        "Bass": 50
+    },
+    {
+        "Genre": "Bachata",
+        "BPM": 130,
+        "Danceability": 85,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 60
+    },
+    {
+        "Genre": "Cumbia",
+        "BPM": 110,
+        "Danceability": 90,
+        "Classical": 5,
+        "Chill": 40,
+        "Bass": 50
+    },
+    {
+        "Genre": "Dancehall",
+        "BPM": 95,
+        "Danceability": 80,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 70
+    },
+    {
+        "Genre": "Grime",
+        "BPM": 140,
+        "Danceability": 75,
+        "Classical": 5,
+        "Chill": 10,
+        "Bass": 90
+    },
+    {
+        "Genre": "Dub",
+        "BPM": 85,
+        "Danceability": 60,
+        "Classical": 5,
+        "Chill": 50,
+        "Bass": 80
+    },
+    {
+        "Genre": "Chiptune",
+        "BPM": 120,
+        "Danceability": 70,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 60
+    },
+    {
+        "Genre": "IDM",
+        "BPM": 130,
+        "Danceability": 50,
+        "Classical": 10,
+        "Chill": 30,
+        "Bass": 70
+    },
+    {
+        "Genre": "Synthpop",
+        "BPM": 120,
+        "Danceability": 75,
+        "Classical": 5,
+        "Chill": 40,
+        "Bass": 60
+    },
+    {
+        "Genre": "New Wave",
+        "BPM": 130,
+        "Danceability": 70,
+        "Classical": 10,
+        "Chill": 30,
+        "Bass": 50
+    },
+    {
+        "Genre": "Post-Rock",
+        "BPM": 80,
+        "Danceability": 40,
+        "Classical": 20,
+        "Chill": 90,
+        "Bass": 30
+    },
+    {
+        "Genre": "Post-Punk",
+        "BPM": 120,
+        "Danceability": 60,
+        "Classical": 15,
+        "Chill": 40,
+        "Bass": 50
+    },
+    {
+        "Genre": "Shoegaze",
+        "BPM": 90,
+        "Danceability": 50,
+        "Classical": 20,
+        "Chill": 80,
+        "Bass": 40
+    },
+    {
+        "Genre": "Punk",
+        "BPM": 160,
+        "Danceability": 70,
+        "Classical": 5,
+        "Chill": 10,
+        "Bass": 80
+    },
+    {
+        "Genre": "Ska",
+        "BPM": 120,
+        "Danceability": 85,
+        "Classical": 5,
+        "Chill": 30,
+        "Bass": 60
+    },
+    {
+        "Genre": "Blue-eyed Soul",
+        "BPM": 100,
+        "Danceability": 75,
+        "Classical": 10,
+        "Chill": 50,
+        "Bass": 40
+    },
+    {
+        "Genre": "Acid House",
+        "BPM": 120,
+        "Danceability": 80,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 70
+    },
+    {
+        "Genre": "Bass House",
+        "BPM": 128,
+        "Danceability": 80,
+        "Classical": 5,
+        "Chill": 20,
+        "Bass": 80
     },
     {
         "Genre": "K-pop",
@@ -182,14 +494,6 @@
         "Classical": 5,
         "Chill": 10,
         "Bass": 100
-    },
-    {
-        "Genre": "Big Room House",
-        "BPM": 128,
-        "Danceability": 80,
-        "Classical": 5,
-        "Chill": 20,
-        "Bass": 80
     },
     {
         "Genre": "Tropical House",
