@@ -48,6 +48,14 @@
         "Bass": 60
     },
     {
+        "Genre": "Progressive House",
+        "BPM": 128,
+        "Danceability": 75,
+        "Classical": 30,
+        "Chill": 40,
+        "Bass": 50
+    },
+    {
         "Genre": "Future Funk",
         "BPM": 128,
         "Danceability": 75,
