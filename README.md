@@ -1,3 +1,4 @@
+---
 title: MAB_music_recommend
 emoji: 🎧
 colorFrom: gray
@@ -7,6 +8,11 @@ sdk_version: 1.44.1
 app_file: app.py
 pinned: false
 short_description: ㅅㄷㄴㅅ
+---
+
+# MAB_music_recommend
+
+UI 장르 추천 클릭하면 
 
 ```mermaid
 flowchart TD
