@@ -1,5 +1,10 @@
 # MAB_music_recommend
 
+title: MAB_music_recommend
+emoji: 🎧
+app_file: app.py
+pinned: false
+
 ```mermaid
 flowchart TD
     시작 --> reset[기본 변수 설정] --> epsilon{
