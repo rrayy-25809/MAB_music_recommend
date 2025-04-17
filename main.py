@@ -41,7 +41,7 @@ if __name__ == "__main__":
         print("아래 추천 장르에 대해 점수를 매겨주세요")
 
         recommanded_genre:dict = model.select_arm() # 추천 장르 선택
-        print(f"추천 장르 : {recommanded_genre["Genre"]}") # 추천 장르 출력
+        print(f"추천 장르 : {recommanded_genre['Genre']}") # 추천 장르 출력
         user_input = int(input("점수 (1~10) : ")) # 사용자 점수 가져오기
         wanna_break = input("종료하시겠습니까? (y/n) : ")
         if wanna_break == "y":
