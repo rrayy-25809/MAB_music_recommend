@@ -1,9 +1,12 @@
-# MAB_music_recommend
-
 title: MAB_music_recommend
 emoji: 🎧
+colorFrom: gray
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.44.1
 app_file: app.py
 pinned: false
+short_description: ㅅㄷㄴㅅ
 
 ```mermaid
 flowchart TD
