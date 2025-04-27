@@ -88,6 +88,22 @@
         "Bass": 80
     },
     {
+        "Genre": "Rocktronic",
+        "BPM": 150,
+        "Danceability": 80,
+        "Classical": 30,
+        "Chill": 30,
+        "Bass": 80
+    },
+    {
+        "Genre": "Metalcore",
+        "BPM": 160,
+        "Danceability": 50,
+        "Classical": 5,
+        "Chill": 10,
+        "Bass": 80
+    },
+    {
         "Genre": "Drum and Bass",
         "BPM": 172,
         "Danceability": 85,
@@ -97,10 +113,10 @@
     },
     {
         "Genre": "Techno",
-        "BPM": 130,
+        "BPM": 140,
         "Danceability": 70,
         "Classical": 5,
-        "Chill": 20,
+        "Chill": 10,
         "Bass": 80
     },
     {
@@ -424,6 +440,14 @@
         "Bass": 60
     },
     {
+        "Genre": "J-pop",
+        "BPM": 160,
+        "Danceability": 60,
+        "Classical": 10,
+        "Chill": 50,
+        "Bass": 60
+    },
+    {
         "Genre": "Rock",
         "BPM": 110,
         "Danceability": 60,
@@ -542,5 +566,78 @@
         "Classical": 5,
         "Chill": 40,
         "Bass": 80
+    },
+    
+    {
+        "Genre": "Chillstep",
+        "BPM": 70,
+        "Danceability": 50,
+        "Classical": 5,
+        "Chill": 90,
+        "Bass": 40
+    },
+    {
+        "Genre": "Vaporwave",
+        "BPM": 80,
+        "Danceability": 40,
+        "Classical": 10,
+        "Chill": 100,
+        "Bass": 20
+    },
+    {
+        "Genre": "Synthwave",
+        "BPM": 100,
+        "Danceability": 60,
+        "Classical": 15,
+        "Chill": 70,
+        "Bass": 60
+    },
+    {
+        "Genre": "Chillout",
+        "BPM": 70,
+        "Danceability": 30,
+        "Classical": 20,
+        "Chill": 100,
+        "Bass": 10
+    },
+    {
+        "Genre": "Cinematic",
+        "BPM": 60,
+        "Danceability": 10,
+        "Classical": 100,
+        "Chill": 90,
+        "Bass": 10
+    },
+    {
+        "Genre": "Soundtrack",
+        "BPM": 80,
+        "Danceability": 20,
+        "Classical": 80,
+        "Chill": 70,
+        "Bass": 30
+    },
+    {
+        "Genre": "Experimental",
+        "BPM": 90,
+        "Danceability": 40,
+        "Classical": 20,
+        "Chill": 60,
+        "Bass": 50
+    },
+    {
+        "Genre": "New Age",
+        "BPM": 60,
+        "Danceability": 20,
+        "Classical": 90,
+        "Chill": 100,
+        "Bass": 10
+    },
+    {
+        "Genre": "Chanson",
+        "BPM": 80,
+        "Danceability": 50,
+        "Classical": 20,
+        "Chill": 70,
+        "Bass": 30
     }
 ]
