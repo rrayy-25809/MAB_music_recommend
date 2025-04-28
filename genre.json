@@ -520,6 +520,14 @@
         "Bass": 90
     },
     {
+        "Genre": "Rock",
+        "BPM": 150,
+        "Danceability": 90,
+        "Classical": 10,
+        "Chill": 15,
+        "Bass": 90
+    },
+    {
         "Genre": "Hardstyle",
         "BPM": 150,
         "Danceability": 80,
