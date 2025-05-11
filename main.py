@@ -31,7 +31,7 @@ class Music_MAB: #멀티 암드 밴딧 알고리즘을 담은 클래스 생성
         if self.epsilon == 1: # 처음 탐색 비율이 1일 때
             self.user_status = np.array([float(i) for i in reward_vector]) # 사용자 상태를 reward_vector로 초기화
         else:
-            self.user_status += (np.array(reward_vector) - self.user_status) * (user_input/20) # 현재 상태와 reward_vector 간의 차이를 user_input/10 비율만큼 반영
+            self.user_status += (np.array(reward_vector) - self.user_status) * ((user_input-3)/10) # 현재 상태와 reward_vector 간의 차이를 user_input/10 비율만큼 반영
         self.epsilon *= 0.95  # 탐색 비율 점진적으로 줄이기
 
 if __name__ == "__main__":
