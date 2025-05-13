@@ -1,6 +1,7 @@
 from selenium import webdriver # selenium의 webdriver를 사용하기 위한 import
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys # selenium으로 키를 조작하기 위한 import
+from selenium.webdriver.support.ui import WebDriverWait # 웹 페이지 로딩 대기
+from selenium.webdriver.support import expected_conditions as EC # 특정 조건을 만족할 때까지 대기하기 위한 import
 from selenium.webdriver.common.by import By # 요소를 찾기 위한 import
 import time # 시간 관련 기능을 사용하기 위한 import
 
@@ -19,8 +20,12 @@ def get_soundcloud_links(tag:str) -> str:
     driver.get(url) # 입력받은 URL로 이동
     time.sleep(5) # 페이지 로딩 대기
 
-    Links = driver.find_elements(By.CLASS_NAME, "sound__coverArt")
-    href = Links[0].get_attribute("href")
+    WebDriverWait(driver, 5).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "sound__coverArt"))
+    ) # 'sound__coverArt' 클래스가 로드될 때까지 최대 5초 대기
+
+    Links = driver.find_elements(By.CLASS_NAME, "sound__coverArt") # 'sound__coverArt' 클래스를 가진 요소들을 찾음
+    href = Links[4].get_attribute("href") # 첫 번째 요소의 href 속성값을 가져옴
 
     driver.quit() # 드라이버 종료
     return href # 링크 반환
