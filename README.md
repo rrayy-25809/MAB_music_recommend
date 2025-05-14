@@ -19,8 +19,17 @@ flowchart TD
     시작 --> reset[기본 변수 설정] --> epsilon{
         엡실론 값보다 랜덤 값이 작습니까?
     }
-    epsilon -->|예| MultiOutputRegressor[다중 출력 회귀 모델로 보상값 예측] --> get_highest[가장 높은 보상값의 팔 선택] --> recommend[선택된 팔 추천천]
-    epsilon -->|아니오| random[랜덤 팔 선택] --> recommend[선택된 팔 추천]
-    recommend --> answer --> caculate[보상값 계산] --> update[모델 업데이트] --> epsilon
+    epsilon -->|예| explore[arms 리스트에서<br>무작위 장르 선택] --> 추천[선택된 장르 추천]
+    epsilon -->|아니오| exploit[NearestNeighbors로<br>가장 가까운 장르 선택] --> 추천
+
+    추천 --> 점수입력[사용자로부터 점수 입력 받기]
+    점수입력 --> 종료확인{종료하시겠습니까?}
     
+    종료확인 -->|y| 종료
+    종료확인 -->|n| 업데이트[update 함수 실행:<br>user_status 업데이트,<br>epsilon 감소] --> 루프
+
+    종료 --> 끝[프로그램 종료]
+
+    style 끝 fill:#f9f,stroke:#333,stroke-width:2px
+
 ```

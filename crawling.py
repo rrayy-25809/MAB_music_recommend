@@ -3,15 +3,17 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait # 웹 페이지 로딩 대기
 from selenium.webdriver.support import expected_conditions as EC # 특정 조건을 만족할 때까지 대기하기 위한 import
 from selenium.webdriver.common.by import By # 요소를 찾기 위한 import
+from selenium.webdriver.chrome.service import Service # 크롬드라이버 서비스 관리
+from webdriver_manager.chrome import ChromeDriverManager # 크롬드라이버 자동 설치를 위한 import
 import time # 시간 관련 기능을 사용하기 위한 import
 
 chrome_options = Options() # 크롬 옵션 설정
 chrome_options.add_argument("--no-sandbox")  # 샌드박스 비활성화
 chrome_options.add_argument("--headless")  # 브라우저 창을 띄우지 않음
-chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage") # 메모리 사용량 최적화
 
 def get_soundcloud_links(tag:str) -> str:
-    driver = webdriver.Chrome(options=chrome_options) # 크롬드라이버 실행
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options) # 크롬드라이버 실행
 
     # 사용자로부터 요약할 웹사이트의 URL을 입력받음
     url = f"https://soundcloud.com/tags/{tag}/popular-tracks"
