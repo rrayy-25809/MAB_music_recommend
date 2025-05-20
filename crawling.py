@@ -26,7 +26,8 @@ def get_soundcloud_links(tag:str) -> str:
     ) # 'sound__coverArt' 클래스가 로드될 때까지 최대 5초 대기
 
     Links = driver.find_elements(By.CLASS_NAME, "sound__coverArt") # 'sound__coverArt' 클래스를 가진 요소들을 찾음
-    href = Links[random.randint(0,15)].get_attribute("href") # 랜덤 요소의 href 속성값을 가져옴
+    randidx = len(Links) if len(Links) < 10 else 10
+    href = Links[random.randint(0,randidx)].get_attribute("href") # 랜덤 요소의 href 속성값을 가져옴
 
     driver.quit() # 드라이버 종료
     return href # 링크 반환
