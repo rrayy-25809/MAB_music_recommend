@@ -16,6 +16,14 @@
         "Bass": 30
     },
     {
+        "Genre": "Jazztronica",
+        "BPM": 100,
+        "Danceability": 60,
+        "Classical": 50,
+        "Chill": 70,
+        "Bass": 50
+    },
+    {
         "Genre": "Chillhop",
         "BPM": 85,
         "Danceability": 60,
@@ -448,6 +456,14 @@
         "Bass": 60
     },
     {
+        "Genre": "J-Rock",
+        "BPM": 170,
+        "Danceability": 60,
+        "Classical": 40,
+        "Chill": 50,
+        "Bass": 50
+    },
+    {
         "Genre": "Rock",
         "BPM": 110,
         "Danceability": 60,
@@ -520,12 +536,84 @@
         "Bass": 90
     },
     {
-        "Genre": "Rock",
+        "Genre": "Punk Rave",
         "BPM": 150,
         "Danceability": 90,
         "Classical": 10,
         "Chill": 15,
         "Bass": 90
+    },
+    {
+        "Genre": "Hardcore",
+        "BPM": 180,
+        "Danceability": 60,
+        "Classical": 5,
+        "Chill": 5,
+        "Bass": 100
+    },
+    {
+        "Genre": "Post-Hardcore",
+        "BPM": 160,
+        "Danceability": 50,
+        "Classical": 5,
+        "Chill": 10,
+        "Bass": 80
+    },
+    {
+        "Genre": "Emo",
+        "BPM": 140,
+        "Danceability": 50,
+        "Classical": 10,
+        "Chill": 20,
+        "Bass": 70
+    },
+    {
+        "Genre": "Screamo",
+        "BPM": 180,
+        "Danceability": 40,
+        "Classical": 5,
+        "Chill": 5,
+        "Bass": 90
+    },
+    {
+        "Genre": "Post-Metal",
+        "BPM": 80,
+        "Danceability": 30,
+        "Classical": 20,
+        "Chill": 80,
+        "Bass": 40
+    },
+    {
+        "Genre": "Industrial",
+        "BPM": 120,
+        "Danceability": 50,
+        "Classical": 10,
+        "Chill": 20,
+        "Bass": 70
+    },
+    {
+        "Genre": "Gothic",
+        "BPM": 90,
+        "Danceability": 40,
+        "Classical": 20,
+        "Chill": 60,
+        "Bass": 50
+    },
+    {
+        "Genre": "Darkwave",
+        "BPM": 100,
+        "Danceability": 50,
+        "Classical": 15,
+        "Chill": 70,
+        "Bass": 40
+    },
+    {
+        "Genre": "Rock",
+        "BPM": 150,
+        "Danceability": 90,
+        "Classical": 10,
+        "Chill": 15,
+        "Bass": 70
     },
     {
         "Genre": "Hardstyle",
