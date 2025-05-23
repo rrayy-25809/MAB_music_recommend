@@ -47,13 +47,21 @@
         "Chill": 100,
         "Bass": 20
     },
-    {
+        {
         "Genre": "Future House",
         "BPM": 128,
         "Danceability": 80,
         "Classical": 15,
-        "Chill": 10,
+        "Chill": 20,
         "Bass": 60
+    },
+    {
+        "Genre": "Future House",
+        "BPM": 128,
+        "Danceability": 90,
+        "Classical": 10,
+        "Chill": 10,
+        "Bass": 65
     },
     {
         "Genre": "Progressive House",
@@ -465,7 +473,7 @@
     },
     {
         "Genre": "Rock",
-        "BPM": 110,
+        "BPM": 140,
         "Danceability": 60,
         "Classical": 30,
         "Chill": 30,
@@ -606,14 +614,6 @@
         "Classical": 15,
         "Chill": 70,
         "Bass": 40
-    },
-    {
-        "Genre": "Rock",
-        "BPM": 150,
-        "Danceability": 90,
-        "Classical": 10,
-        "Chill": 15,
-        "Bass": 70
     },
     {
         "Genre": "Hardstyle",
